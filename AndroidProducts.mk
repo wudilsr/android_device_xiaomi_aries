@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_aries.mk
+    $(LOCAL_DIR)/havoc_aries.mk

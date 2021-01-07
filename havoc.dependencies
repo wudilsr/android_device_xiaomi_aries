@@ -1,8 +1,8 @@
 [
  {
-   "repository": "exthmui-devices/android_device_xiaomi_msm8960-common",
+   "repository": "wudilsr/android_device_xiaomi_msm8960-common",
    "target_path": "device/xiaomi/msm8960-common",
-   "branch": "exthm-10",
+   "branch": "android-10.0",
    "remote": "github"
  },
  {

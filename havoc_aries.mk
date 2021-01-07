@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cancro device
 $(call inherit-product, device/xiaomi/aries/aries.mk)
 
-# Inherit some common exTHmUI stuff.
-$(call inherit-product, vendor/exthm/config/common_mini_phone.mk)
+# Inherit some common Havoc-OS stuff.
+$(call inherit-product, vendor/havoc/config/common_mini_phone.mk)
 
-PRODUCT_NAME := exthm_aries
+PRODUCT_NAME := havoc_aries
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_DEVICE := aries
 PRODUCT_BRAND := Xiaomi
