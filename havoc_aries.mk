@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/aries/aries.mk)
 
 # Inherit some common Havoc-OS stuff.
 $(call inherit-product, vendor/havoc/config/common_mini_phone.mk)
+$(call inherit-product, vendor/havoc/build/target/product/product_launched_with_j_mr1.mk)
 
 PRODUCT_NAME := havoc_aries
 PRODUCT_CHARACTERISTICS := nosdcard
